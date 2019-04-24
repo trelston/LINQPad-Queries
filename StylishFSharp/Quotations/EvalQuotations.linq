@@ -63,7 +63,7 @@ type Tests() =
     
     [<Test>]
     member test.``local property method`` () =
-        Assert.AreEqual(test.LocalMethod(), eval <@ test.LocalMethod() @>
+        Assert.AreEqual(test.LocalMethod(), eval <@ test.LocalMethod() @>)
         
     static member GlobalProperty = 1
     
