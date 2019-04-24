@@ -68,7 +68,7 @@ module Download =
             |> Seq.choose (fun node -> 
                 node.TryGetAttribute("href")
                 |> Option.map (fun att -> att.Value())) 
-            //Seq.choose removes the values that are option type none
+            //Seq.choose removes the values that are option type None
             //Option.map applies the function to an optional list returning an optional list.
             //The expression map f inp evaluates to match inp with None -> None | Some x -> Some (f x).
             |> Seq.filter (re.IsMatch)

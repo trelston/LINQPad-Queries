@@ -12,7 +12,7 @@ module Chapter08_01 =
     //      need to be accessible outside the class definition
     //3 - Members are declared simply by saying
     //      member <self-identifier>.Name(<parameters>) = <body>
-    //      The self identifier in this case this, can be any non-reserved identifier,
+    //      The self identifier in this case "this", can be any non-reserved identifier,
     //      though you might as well stick to this if you are going to use it in the member body.
     //4 - Members can call themselves recursively. You dont have to use any special keyword like rec.
     type ConsolePrompt(message : string) =
@@ -790,8 +790,7 @@ module Chapter08_19 =
 
     let demo() =
 
-        //object expression - quick and dirty
-        
+        //object expression - quick and dirty     
         
         let logger = {
             new ILogger with
