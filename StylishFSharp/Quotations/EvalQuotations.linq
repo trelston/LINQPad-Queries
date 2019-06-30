@@ -76,29 +76,3 @@ type Tests() =
     [<Test>]
     member test.``global property method`` () =
         Assert.AreEqual(Tests.GlobalMethod(), eval <@ Tests.GlobalMethod() @>)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
