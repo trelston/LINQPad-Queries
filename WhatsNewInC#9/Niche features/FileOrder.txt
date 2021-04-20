@@ -1,0 +1,5 @@
+Static lambdas.linq
+Attributes on local functions.linq
+Skip localsinit.linq
+Function pointers.linq
+Function pointers - interop.linq

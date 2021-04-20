@@ -1,0 +1,5 @@
+Relational patterns.linq
+Pattern combinators.linq
+Relational patterns and types.linq
+Not pattern.linq
+Lambda discard parameters.linq
