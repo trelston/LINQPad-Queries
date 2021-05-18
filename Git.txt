@@ -1,0 +1,14 @@
+Git is an open source version control distributed system.
+Git is a tool that tracks changes to source code.
+
+git init - Put this project under git.
+git add . - Add all the files in the directory and the subdirectories to an index or a staging area
+git commit -m "First commit" - Commits the files to the repository, creating the first snapshot of the repository
+git status - It gives the current status of the project. It shows which files have been added or modified.
+git diff <commit_guid1> <commit_guid2> - It shows the difference between the two commits. The commit_guid can be the first 4 characters of the guid
+git checkout <commit_guid> - It takes the working code to version of the code with the commit_guid
+git checkout <branch_name> - It resets the working code to the verison of the code in the branch <branch_name>
+git merge <branch_name> - It merges the history of the mentioned <branch_name> to the current branch. 
+						  The current branch now has the commits of <branch_name> and its own branch.
+						  This means that the current branch is now up-to-date with all the changes of <branch_name>.
+						  Merges can cause conflicts if the two branches have changes in the same line of code.
